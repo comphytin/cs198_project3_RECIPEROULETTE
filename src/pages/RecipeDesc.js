@@ -73,7 +73,7 @@ function RecipeDesc() {
             </div>
 
             <div className="ingredients-section">
-                <h2 style={{textAlign: "left", marginLeft: "10px"}}>Ingredients You Have</h2>
+                <h2 style={{textAlign: "left", marginLeft: "10px"}}>Ingredients You Need</h2>
                 <ul className="present_ingredients">
                     {displayRecipe.extendedIngredients?.map((ing, idx) => (
                         <li className="present_ingredient" key={idx}>{ing.original}</li>
