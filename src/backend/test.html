@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Recipe API</title>
+</head>
+<body>
+    <h1>Test Recipe API</h1>
+    <input type="text" id="ingredients" placeholder="eggs,flour,milk" size="40">
+    <button onclick="testAPI()">Test</button>
+    <pre id="result"></pre>
+
+    <script>
+        async function testAPI() {
+            const ingredients = document.getElementById('ingredients').value;
+            const resultDiv = document.getElementById('result');
+            
+            resultDiv.textContent = "Loading...";
+            
+            try {
+                const response = await fetch('http://localhost:5001/api/request_recipes', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ ingredientList: ingredients })
+                });
+                
+                const data = await response.json();
+                resultDiv.textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                resultDiv.textContent = "Error: " + error.message;
+            }
+        }
+    </script>
+</body>
+</html>

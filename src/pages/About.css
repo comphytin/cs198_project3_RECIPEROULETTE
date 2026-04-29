@@ -1,0 +1,16 @@
+#about_heading {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.about_paragraph {
+    margin-left: 20px;
+    text-align: left;
+    font-family: 'Arial';
+    font-style: normal;
+    font-size: 15px;
+}
+
+#sandvich_maker {
+    width: 50%;
+}

@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+}
+
+#rr_icon {
+    width: 60%;
+}
+
+.imghome_container {
+    width: 100%;
+}
+
+.img_home {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.more_text_home {
+    width: 60%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.more_text_home_heading {
+    text-align: left;
+
+}
+
+.more_text_home_body {
+    text-align: left;
+    font-size: 15px;
+
+}
+
+#start_crafting_button {
+    border: 1px solid black;
+    color: white;
+    background-color: #c13838;
+    font-size: 25px;
+    border-radius: 15px;
+    transition: 1s;
+}
+#start_crafting_button:hover {
+    font-size: 35px;
+    background-color: black;
+}
+
+.bundled_images {
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.bundled_images img {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#start_crafting_text {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.trending-section {
+    background-color: #55d490;
+}
+
+.trending-grid {
+    margin-bottom: 10px;
+}
+
+.trending-card {
+    margin-top: 20px;
+    background-color: #F661E5;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.view_recipe {
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.good_food_image {
+    margin-top: 10px;
+}

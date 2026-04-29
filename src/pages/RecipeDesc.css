@@ -1,0 +1,39 @@
+.back-button {
+    text-decoration: none;
+    color: white;
+}
+
+.back-button:hover {
+    color: blue;
+}
+
+.recipe-description-container {
+
+}
+
+.recipe-header {
+
+}
+
+.recipe-stats {
+
+}
+
+.ingredients-section {
+
+}
+
+.instructions-section {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.present_ingredient {
+    text-align: left;
+    font-size: 20px;
+}
+
+.needed_ingredient {
+    text-align: left;
+    font-size: 20px;
+}
